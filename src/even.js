@@ -1,4 +1,4 @@
-import readlineSync from 'readline-sync'
+import readlineSync from 'readline-sync';
 import nameQuest from './cli.js';
 
 function rnd() {
@@ -14,10 +14,10 @@ export default function gameEven() {
     if ((numsave % 2 === 0 && quest === 'yes') || (numsave % 2 !== 0 && quest === 'no')) {
       console.log('Correct!');
     } else {
-        if (quest === 'yes')
-            console.log(`${quest} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
-        else
-            console.log(`${quest} is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);
+      if (quest === 'yes'){
+        console.log(`${quest} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);}
+      else{
+        console.log(`${quest} is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);}
       return;
     }
   }
