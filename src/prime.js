@@ -6,7 +6,7 @@ function num() {
 }
 
 function ifPrime(n) {
-  if (n === 1) {
+  if (n <= 1) {
     return 'no';
   } if (n === 2) {
     return 'yes';
