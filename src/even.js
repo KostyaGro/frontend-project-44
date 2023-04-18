@@ -16,8 +16,7 @@ export default function gameEven() {
     } else {
       if (quest === 'yes') {
         console.log(`${quest} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
-      }
-      else{
+      } else {
         console.log(`${quest} is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${userName}!`);
       }
       return;
