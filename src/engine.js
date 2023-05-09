@@ -4,7 +4,7 @@ import nameQuest from './cli.js';
 
 const maxCount = 3;
 
-export default function runEngine (rules, generateRound) {
+export default function runEngine(rules, generateRound) {
   const userName = nameQuest();
   console.log(rules);
 
@@ -21,4 +21,4 @@ export default function runEngine (rules, generateRound) {
   }
 
   console.log(`Congratulations, ${userName}!`);
-};
+}

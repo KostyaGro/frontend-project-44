@@ -25,4 +25,4 @@ const generateRound = () => {
 
 export default function gameProgressive() {
   runEngine(rules, generateRound);
-};
+}

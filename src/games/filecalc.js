@@ -24,9 +24,7 @@ function calculate(num1, num2, sign) {
   return sign;
 }
 
-
 const rules = 'What is the result of the expression?';
-
 
 const generateRound = () => {
   const getMathSign = randSign();
@@ -39,4 +37,4 @@ const generateRound = () => {
 
 export default function startGameCalc() {
   runEngine(rules, generateRound);
-};
+}

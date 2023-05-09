@@ -22,4 +22,4 @@ const generateRound = () => {
 
 export default function primeGame() {
   runEngine(rules, generateRound);
-};
+}

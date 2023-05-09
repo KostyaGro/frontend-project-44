@@ -23,4 +23,4 @@ const generateRound = () => {
 export default function gameGcd() {
   console.log('gameGcd');
   runEngine(rules, generateRound);
-};
+}
